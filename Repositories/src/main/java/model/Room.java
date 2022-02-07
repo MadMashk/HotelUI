@@ -68,10 +68,7 @@ public class Room  {
     public RoomStatus getStatus() {
         return status;
     }
-    public void getDetails(){
-        System.out.println("Номер "+number+"\nВместительность "+capacity+"\nКоличество звезд "+
-                starsQuantity+"\nСтоимость "+price+"\n Статус "+status+"\nОбслуживается ли "+rentStatus);
-    }
+
 
 }
 

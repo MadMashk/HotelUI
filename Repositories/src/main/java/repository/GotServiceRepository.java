@@ -10,6 +10,7 @@ import java.util.List;
 public class GotServiceRepository implements IGotServiceRepository{
 
     private List<GotServices> gotServices;
+
     public GotServiceRepository(){
         gotServices = new ArrayList<GotServices>();
     }
